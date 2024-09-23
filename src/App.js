@@ -11,5 +11,3 @@ function App() {
 }
 
 export default App;
-
-// Video https://www.youtube.com/watch?v=LpZrAjU6Hhk&t=605s minutazhi:50:19

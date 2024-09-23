@@ -16,20 +16,15 @@ const Home = () => {
         >
           <div className="flex flex-col justify-center h-full">
             <h2 className="text-4xl sm:text-7xl font-bold text-white">
-              Hi! I'm Ledjan
+              Hello World
             </h2>
             <p className="text-gray-500 py-4 max-w-md">
               I'm a passionate frontend developer with a diverse background in
               Audio Engineering, Translation, and over 10 years of leadership
-              experience managing production and translation teams. My journey
-              into programming stems from a lifelong passion for technology, and
-              today I specialize in building intuitive, user-friendly
-              applications using modern technologies like HTML5, CSS,
-              JavaScript, React.js, and TailwindCSS. I bring a unique
-              combination of technical expertise, organizational skills, and
-              team collaboration abilities. I'm excited to leverage my
-              cross-industry experience to create impactful software solutions
-              and contribute to dynamic teams in the tech industry.
+              experience managing production and translation teams. I specialize
+              in building intuitive, user-friendly applications using modern
+              technologies like HTML5, CSS, JavaScript, React.js, and
+              TailwindCSS.
             </p>
             <div>
               <button
