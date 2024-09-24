@@ -20,23 +20,29 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
-          officiis enim! Saepe quae porro at sed debitis! Recusandae impedit
-          doloremque quia perspiciatis ad cupiditate aspernatur sint obcaecati
-          placeat, reprehenderit, itaque unde fuga dolorem quisquam totam vitae?
-          Molestias sapiente error id distinctio, eaque earum a accusamus
-          officiis repellat vitae dicta veniam.{" "}
+          As a passionate and self-driven junior Front-End Developer, I bring a
+          unique blend of skills from my background in Audio/Video Production,
+          Translation, and Teaching. Certified in HTML, CSS, JavaScript, and
+          React.js, I am committed to creating modern, responsive web
+          applications that prioritize user experience and functionality. I have
+          completed comprehensive training through the Meta Front-End Developer
+          Professional Certificate and am currently expanding my expertise in
+          UX/UI design. My ability to quickly adapt, coupled with strong
+          communication and problem-solving skills, allows me to approach
+          challenges with a creative and solution-oriented mindset.
         </p>
 
         <br />
 
         <p className="text-xl">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit
-          reprehenderit earum quis nam accusantium maxime officia rem
-          perferendis soluta voluptatibus debitis dicta illo libero fugit,
-          molestiae id! Doloremque, laborum! Voluptatibus odit unde quod
-          repellendus, sed sapiente minus consectetur ut earum. Aperiam, cumque
-          quidem tenetur exercitationem rem quam provident excepturi error?
+          Throughout my career, I have honed my leadership abilities, working as
+          a team leader in Audio/Video Production, where I coordinated large
+          teams to ensure the delivery of high-quality digital content. My role
+          as an English teacher has further refined my capacity to communicate
+          complex ideas effectively. Now, I am excited to leverage this diverse
+          experience in the world of web development, eager to contribute to
+          projects that help individuals and organizations achieve their goals
+          through well-crafted software solutions.
         </p>
       </div>
     </div>
