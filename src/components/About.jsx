@@ -20,29 +20,21 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          As a passionate and self-driven junior Front-End Developer, I bring a
-          unique blend of skills from my background in Audio/Video Production,
-          Translation, and Teaching. Certified in HTML, CSS, JavaScript, and
-          React.js, I am committed to creating modern, responsive web
-          applications that prioritize user experience and functionality. I have
-          completed comprehensive training through the Meta Front-End Developer
-          Professional Certificate and am currently expanding my expertise in
-          UX/UI design. My ability to quickly adapt, coupled with strong
-          communication and problem-solving skills, allows me to approach
-          challenges with a creative and solution-oriented mindset.
+          As a junior Front-End Developer with a background in Audio/Video
+          Production, Translation, and Teaching, I bring skills in HTML, CSS,
+          JavaScript, and React.js to create responsive, user-centered web
+          applications. Certified through the Meta Front-End Developer program,
+          I'm expanding my expertise in UX/UI design while maintaining a strong
+          focus on functionality and user experience.
         </p>
 
         <br />
 
         <p className="text-xl">
-          Throughout my career, I have honed my leadership abilities, working as
-          a team leader in Audio/Video Production, where I coordinated large
-          teams to ensure the delivery of high-quality digital content. My role
-          as an English teacher has further refined my capacity to communicate
-          complex ideas effectively. Now, I am excited to leverage this diverse
-          experience in the world of web development, eager to contribute to
-          projects that help individuals and organizations achieve their goals
-          through well-crafted software solutions.
+          With experience leading teams in Audio/Video Production and clear
+          communication skills honed through teaching, I'm eager to leverage my
+          diverse background in web development to contribute to impactful
+          software solutions.
         </p>
       </div>
     </div>
