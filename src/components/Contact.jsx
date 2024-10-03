@@ -25,12 +25,14 @@ const Contact = () => {
               name="name"
               placeholder="Enter your name"
               className="p-2 bg-transparent border-2 rounded-md focus:outline-none"
+              autoComplete="name"
             />
             <input
               type="email"
               name="email"
               placeholder="Enter your email"
               className="my-4 p-2 bg-transparent border-2 rounded-md focus:outline-none"
+              autoComplete="email"
             />
             <textarea
               name="message"
