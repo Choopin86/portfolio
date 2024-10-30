@@ -1,7 +1,6 @@
 import React from "react";
 import Calculator from "../assets/Portfolio/Calculator.png";
 import GameHub from "../assets/Portfolio/GameHub app.png";
-import LibraryManagementSystem from "../assets/Portfolio/Library Management system.png";
 import ToDo from "../assets/Portfolio/To-do app.png";
 
 const Portfolio = () => {
@@ -9,18 +8,23 @@ const Portfolio = () => {
     {
       id: 1,
       src: Calculator,
+      alt: "Calculator",
+      link: "",
+      code: "",
     },
     {
       id: 2,
       src: GameHub,
+      alt: "Game-Hub",
+      link: "https://gamehub-fawn-gamma.vercel.app/",
+      code: "https://github.com/Choopin86/game_hub.git",
     },
     {
       id: 3,
-      src: LibraryManagementSystem,
-    },
-    {
-      id: 4,
       src: ToDo,
+      alt: "To-Do List",
+      link: "",
+      code: "",
     },
   ];
 
@@ -48,21 +52,23 @@ const Portfolio = () => {
           className="grid sm:grid-cols-2 md:grid-cols-3 gap-8
           px-12 sm:px-0"
         >
-          {portfolio.map(({ id, src }) => (
+          {portfolio.map(({ id, src, alt, link, code }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
-                alt=""
+                alt={alt}
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
                 <button
+                  onClick={() => window.open(link, "_blank")}
                   className="w-1/2 px-6 py-3 m-4 duration-200
               hover:scale-105"
                 >
-                  Demo
+                  Open
                 </button>
                 <button
+                  onClick={() => window.open(code, "_blank")}
                   className="w-1/2 px-6 py-3 m-4 duration-200
               hover:scale-105"
                 >
