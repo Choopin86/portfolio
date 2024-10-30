@@ -23,8 +23,8 @@ const Portfolio = () => {
       id: 3,
       src: ToDo,
       alt: "To-Do List",
-      link: "",
-      code: "",
+      link: "https://todo-app-bay-xi-44.vercel.app/",
+      code: "https://github.com/Choopin86/todo-app-main.git",
     },
   ];
 
