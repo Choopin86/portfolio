@@ -20,21 +20,12 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          As a junior Front-End Developer with a background in Audio/Video
-          Production, Translation, and Teaching, I bring skills in HTML, CSS,
-          JavaScript, and React.js to create responsive, user-centered web
-          applications. Certified through the Meta Front-End Developer program,
-          I'm expanding my expertise in UX/UI design while maintaining a strong
-          focus on functionality and user experience.
-        </p>
-
-        <br />
-
-        <p className="text-xl">
-          With experience leading teams in Audio/Video Production, in
-          Translation, and clear communication skills honed through teaching,
-          I'm eager to leverage my diverse background in web development to
-          contribute to impactful software solutions.
+          Certified through the Meta Front-End Developer program, I’m expanding
+          my expertise in UX/UI design to enhance user experiences. My
+          leadership background and strong communication skills, developed
+          through roles in Audio/Video Production and Teaching, allow me to
+          thrive in dynamic development environments and contribute to
+          impactful, user-focused software solutions.
         </p>
       </div>
     </div>

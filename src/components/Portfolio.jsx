@@ -4,38 +4,38 @@ import GameHub from "../assets/Portfolio/GameHub app.png";
 import ToDo from "../assets/Portfolio/To-do app.png";
 import Splitter from "../assets/Portfolio/splitter.png";
 
-const Portfolio = () => {
-  const portfolio = [
-    {
-      id: 1,
-      src: Calculator,
-      alt: "Calculator",
-      link: "https://my-calculator-one-puce.vercel.app/",
-      code: "https://github.com/Choopin86/my-calculator",
-    },
-    {
-      id: 2,
-      src: GameHub,
-      alt: "Game-Hub",
-      link: "https://gamehub-fawn-gamma.vercel.app/",
-      code: "https://github.com/Choopin86/game_hub.git",
-    },
-    {
-      id: 3,
-      src: ToDo,
-      alt: "To-Do List",
-      link: "https://todo-app-bay-xi-44.vercel.app/",
-      code: "https://github.com/Choopin86/todo-app-main.git",
-    },
-    {
-      id: 4,
-      src: Splitter,
-      alt: "Splitter",
-      link: "https://splitter-bay.vercel.app/",
-      code: "https://github.com/Choopin86/tip-calculator",
-    },
-  ];
+const portfolio = [
+  {
+    id: 1,
+    src: Calculator,
+    alt: "Calculator",
+    link: "https://my-calculator-one-puce.vercel.app/",
+    code: "https://github.com/Choopin86/my-calculator",
+  },
+  {
+    id: 2,
+    src: GameHub,
+    alt: "Game-Hub",
+    link: "https://gamehub-fawn-gamma.vercel.app/",
+    code: "https://github.com/Choopin86/game_hub.git",
+  },
+  {
+    id: 3,
+    src: ToDo,
+    alt: "To-Do List",
+    link: "https://todo-app-bay-xi-44.vercel.app/",
+    code: "https://github.com/Choopin86/todo-app-main.git",
+  },
+  {
+    id: 4,
+    src: Splitter,
+    alt: "Splitter",
+    link: "https://splitter-bay.vercel.app/",
+    code: "https://github.com/Choopin86/tip-calculator",
+  },
+];
 
+const Portfolio = () => {
   return (
     <div
       name="portfolio"
@@ -53,7 +53,7 @@ const Portfolio = () => {
           >
             Portfolio
           </p>
-          <p className="py-6">Check out some of my work right here</p>
+          <p className="py-6">Check out my latest projects below!</p>
         </div>
 
         <div
@@ -70,13 +70,13 @@ const Portfolio = () => {
               <div className="flex items-center justify-center">
                 <button
                   onClick={() => window.open(link, "_blank")}
-                  className="rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  className="rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 w-1/2 px-2 py-1 m-4 duration-200 hover:scale-105"
                 >
                   Open
                 </button>
                 <button
                   onClick={() => window.open(code, "_blank")}
-                  className="rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 w-1/2 px-6 py-3 m-4 duration-200
+                  className="rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 w-1/2 px-2 py-1 m-4 duration-200
               hover:scale-105"
                 >
                   Code

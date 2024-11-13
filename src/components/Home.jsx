@@ -19,13 +19,13 @@ const Home = () => {
             <h2 className="text-4xl sm:text-7xl font-bold text-white">
               Hello World
             </h2>
-            <p className="text-gray-500 py-4 max-w-md">
-              I'm a passionate frontend developer with a diverse background in
-              Audio Engineering, Translation, and over 10 years of leadership
-              experience managing production and translation teams. I specialize
-              in building intuitive, user-friendly applications using modern
-              technologies like HTML5, CSS, JavaScript, React.js, and
-              TailwindCSS.
+            <p className="text-gray-400 py-4 max-w-md">
+              I’m a dedicated front-end developer with over 10 years of
+              experience in Audio Engineering, Translation, and Team Leadership.
+              Specializing in building user-friendly web applications with
+              modern technologies such as HTML5, CSS, JavaScript, React.js, and
+              TailwindCSS, I focus on creating responsive, high-functioning
+              solutions.
             </p>
             <div>
               <Link
