@@ -1,7 +1,8 @@
 import React from "react";
-import Calculator from "../assets/Portfolio/Calculator.png";
+import Calculator from "../assets/Portfolio/calculator.png";
 import GameHub from "../assets/Portfolio/GameHub app.png";
 import ToDo from "../assets/Portfolio/To-do app.png";
+import Splitter from "../assets/Portfolio/splitter.png";
 
 const Portfolio = () => {
   const portfolio = [
@@ -9,8 +10,8 @@ const Portfolio = () => {
       id: 1,
       src: Calculator,
       alt: "Calculator",
-      link: "",
-      code: "",
+      link: "https://my-calculator-one-puce.vercel.app/",
+      code: "https://github.com/Choopin86/my-calculator",
     },
     {
       id: 2,
@@ -25,6 +26,13 @@ const Portfolio = () => {
       alt: "To-Do List",
       link: "https://todo-app-bay-xi-44.vercel.app/",
       code: "https://github.com/Choopin86/todo-app-main.git",
+    },
+    {
+      id: 4,
+      src: Splitter,
+      alt: "Splitter",
+      link: "https://splitter-bay.vercel.app/",
+      code: "https://github.com/Choopin86/tip-calculator",
     },
   ];
 
@@ -62,14 +70,13 @@ const Portfolio = () => {
               <div className="flex items-center justify-center">
                 <button
                   onClick={() => window.open(link, "_blank")}
-                  className="w-1/2 px-6 py-3 m-4 duration-200
-              hover:scale-105"
+                  className="rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
                 >
                   Open
                 </button>
                 <button
                   onClick={() => window.open(code, "_blank")}
-                  className="w-1/2 px-6 py-3 m-4 duration-200
+                  className="rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 w-1/2 px-6 py-3 m-4 duration-200
               hover:scale-105"
                 >
                   Code
