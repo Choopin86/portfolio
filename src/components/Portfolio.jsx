@@ -1,5 +1,5 @@
 import React from "react";
-import Calculator from "../assets/Portfolio/calculator.png";
+import Calculator from "../assets/Portfolio/Calculator.png";
 import GameHub from "../assets/Portfolio/GameHub app.png";
 import ToDo from "../assets/Portfolio/To-do app.png";
 import Splitter from "../assets/Portfolio/splitter.png";
