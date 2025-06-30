@@ -19,26 +19,6 @@ const Home = () => {
             Hello World
           </h2>
 
-          <p className="text-gray-400 py-4 max-w-md">
-            I’m a dedicated front-end developer with over 10 years of experience
-            in Audio Engineering, Translation, and Team Leadership. Specializing
-            in building user-friendly web applications with modern technologies
-            such as HTML5, CSS, JavaScript, React.js, and TailwindCSS, I focus
-            on creating responsive, high-functioning solutions.
-          </p>
-
-          <p className="text-gray-400 py-2 max-w-md">
-            With my diverse background as a Software Developer, passionate
-            Pianist, Music Producer, and skilled Translator, I bring a unique
-            blend of creativity and precision to helping you improve your
-            English speaking skills. Whether you’re a professional aiming to
-            polish your business English or someone eager to boost your personal
-            language development, I’m here to guide you every step of the way.
-            Let’s make learning English an exciting and rewarding journey
-            together — feel free to book a class and start speaking confidently
-            today!
-          </p>
-
           <div className="flex flex-col sm:flex-row gap-4 mt-6">
             <ScrollLink
               to="portfolio"
@@ -64,6 +44,26 @@ const Home = () => {
               </span>
             </RouterLink>
           </div>
+
+          <p className="text-gray-400 py-4 max-w-md">
+            I’m a dedicated front-end developer with over 10 years of experience
+            in Audio Engineering, Translation, and Team Leadership. Specializing
+            in building user-friendly web applications with modern technologies
+            such as HTML5, CSS, JavaScript, React.js, and TailwindCSS, I focus
+            on creating responsive, high-functioning solutions.
+          </p>
+
+          <p className="text-gray-400 py-2 max-w-md">
+            With my diverse background as a Software Developer, passionate
+            Pianist, Music Producer, and skilled Translator, I bring a unique
+            blend of creativity and precision to helping you improve your
+            English speaking skills. Whether you’re a professional aiming to
+            polish your business English or someone eager to boost your personal
+            language development, I’m here to guide you every step of the way.
+            Let’s make learning English an exciting and rewarding journey
+            together — feel free to book a class and start speaking confidently
+            today!
+          </p>
         </div>
 
         <div className="mx-auto px-8 mt-12 md:mt-0 md:w-1/2">
