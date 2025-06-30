@@ -80,28 +80,32 @@ const NavBar = () => {
               <li
                 key={id}
                 className="px-4 cursor-pointer capitalize py-6 text-4xl"
-                onClick={() => setNav(false)}
               >
-                <RouterLink to={`/#${link}`}>{link}</RouterLink>
+                <RouterLink to={`/#${link}`} onClick={() => setNav(false)}>
+                  {link}
+                </RouterLink>
               </li>
             ) : (
               <li
                 key={id}
                 className="px-4 cursor-pointer capitalize py-6 text-4xl"
-                onClick={() => setNav(false)}
               >
-                <ScrollLink to={link} smooth duration={500}>
+                <ScrollLink
+                  to={link}
+                  smooth
+                  duration={500}
+                  onClick={() => setNav(false)} // ← fix applied here
+                >
                   {link}
                 </ScrollLink>
               </li>
             )
           )}
 
-          <li
-            className="px-4 cursor-pointer capitalize py-6 text-4xl text-indigo-400"
-            onClick={() => setNav(false)}
-          >
-            <RouterLink to="/talk-with-me">Talk With Me</RouterLink>
+          <li className="px-4 cursor-pointer capitalize py-6 text-4xl text-indigo-400">
+            <RouterLink to="/talk-with-me" onClick={() => setNav(false)}>
+              Talk With Me
+            </RouterLink>
           </li>
         </ul>
       )}

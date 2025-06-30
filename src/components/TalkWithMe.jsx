@@ -50,7 +50,7 @@ Thank you!`,
 
 const TalkWithMe = () => {
   return (
-    <div className="min-h-screen bg-gray-100 px-4 py-12 flex flex-col items-center">
+    <div className="min-h-screen bg-gray-100 px-4 py-12 pt-24 flex flex-col items-center">
       <h1 className="text-4xl font-bold mb-8 text-center">Talk With Me</h1>
       <p className="text-lg text-gray-700 mb-12 text-center max-w-2xl">
         Choose the class format that suits you best. When you're ready, click

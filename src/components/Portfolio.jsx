@@ -40,7 +40,7 @@ const Portfolio = () => {
     <div
       name="portfolio"
       className="bg-gradient-to-b from-black to-gray-800
-      w-full text-white md:h-screen"
+      w-full text-white min-h-screen pt-24 pb-12"
     >
       <div
         className="max-w-screen-lg p-4 mx-auto flex flex-col
@@ -49,7 +49,7 @@ const Portfolio = () => {
         <div className="pb-8">
           <p
             className="text-4xl font-bold inline border-b-4
-          border-gray-500"
+          border-gray-500 mb-4"
           >
             Portfolio
           </p>
@@ -76,8 +76,7 @@ const Portfolio = () => {
                 </button>
                 <button
                   onClick={() => window.open(code, "_blank")}
-                  className="rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 w-1/2 px-2 py-1 m-4 duration-200
-              hover:scale-105"
+                  className="rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 w-1/2 px-2 py-1 m-4 duration-200 hover:scale-105"
                 >
                   Code
                 </button>
